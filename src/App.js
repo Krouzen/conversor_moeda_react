@@ -1,11 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
-
+import Conversor from "./Conversor"
 function App() {
   return (
     <div className="Aapp">
-      
+      <Conversor moedaA="USD" moedaB="BRL"></Conversor>
     </div>
   );
 }
